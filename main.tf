@@ -6,7 +6,7 @@
   }
 } */
 
-<<<<<<< HEAD
+
 /* resource "aws_vpc" "vpcdemo" {
 =======
 resource "aws_vpc" "vpcdemo" {
@@ -16,7 +16,7 @@ resource "aws_vpc" "vpcdemo" {
   tags = {
     Name = "demo vpc for github"
   }
-<<<<<<< HEAD
+
 } */
 
 resource "aws_instance" "ec2user12" {
@@ -25,8 +25,6 @@ resource "aws_instance" "ec2user12" {
     tags = {
         Name = "user12ec2"
     }
-  
+    
 }
-=======
-}
->>>>>>> d56c8e49db05f16e549178ec702001f151779a2b
+
