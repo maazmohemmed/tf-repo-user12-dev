@@ -10,6 +10,6 @@ resource "aws_vpc" "vpcdemo" {
   cidr_block = "10.111.0.0/16"
 
   tags = {
-    Name = "demo vpc github"
+    Name = "demo vpc for github"
   }
 }
